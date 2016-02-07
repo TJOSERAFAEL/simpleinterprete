@@ -1,0 +1,53 @@
+# depslib dependency file v1.0
+1450227771 source:c:\users\rafa\desktop\mc\interprete\main.cpp
+	<iostream>
+	"include/SimpleInterprete.h"
+
+1448447561 c:\users\rafa\desktop\mc\interprete\include\scanner.h
+	<iostream>
+	<fstream>
+
+1450961141 source:c:\users\rafa\desktop\mc\interprete\src\scanner.cpp
+	"../include/Scanner.h"
+	<sstream>
+
+1452856566 source:c:\users\rafa\desktop\mc\interprete\src\simpleinterprete.cpp
+	"../include/SimpleInterprete.h"
+
+1452856512 source:c:\users\rafa\desktop\mc\interprete\src\simpletoken.cpp
+	"../include/SimpleToken.h"
+
+1450956736 c:\users\rafa\desktop\mc\interprete\include\simpletoken.h
+	<map>
+	<string>
+
+1452856169 c:\users\rafa\desktop\mc\interprete\include\simpleinterprete.h
+	<map>
+	<stack>
+	<string>
+	"Scanner.h"
+	"SimpleToken.h"
+	"tree.h"
+	<stack>
+	<queue>
+	<cstdlib>
+	<stdlib.h>
+	<vector>
+	<utility>
+	<algorithm>
+
+1418732396 c:\users\rafa\desktop\mc\interprete\include\tree.h
+	<queue>
+	<iostream>
+	<stack>
+	<list>
+	"tree.hxx"
+	"nodetree.hxx"
+
+1418732382 c:\users\rafa\desktop\mc\interprete\include\tree.hxx
+	<cassert>
+	<iostream>
+
+1418732354 c:\users\rafa\desktop\mc\interprete\include\nodetree.hxx
+	<cassert>
+

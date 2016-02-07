@@ -1,0 +1,37 @@
+println "*************PROGRAMA PIRAMIDE**************** " ;
+print "Numero de filas: " ;
+read num_espacios
+
+if num_espacios < 2
+	print " IFFF " ;
+endif
+
+num_asteriscos = 1
+contador = 0
+println " " ;
+
+while num_espacios > 0
+
+	contador = 0
+	
+	while contador < num_espacios
+		print " " ;
+		print " " ;
+		contador = contador + 1
+	wend
+	
+	contador = 0
+	
+	while contador < num_asteriscos
+		print "* " ;
+		contador = contador + 1
+	wend
+	
+	println " " ;
+	
+	num_espacios = num_espacios - 1
+	num_asteriscos = num_asteriscos + 2
+	
+wend
+
+
